@@ -32,7 +32,7 @@ Desenvolver um banco de dados relacional para um marketplace de roupas online, p
 
 ## Modelo Relacional
 
-mermaid
+```mermaid
 erDiagram
 
     USUARIO ||--o| VENDEDOR : possui
@@ -107,7 +107,7 @@ erDiagram
         VARCHAR status_entrega
         DATE data_envio
     }
-
+```
 
 ## Tecnologias Utilizadas
 
@@ -117,7 +117,7 @@ erDiagram
 
 ## Estrutura do Projeto
 
-
+```text
 traje-a-rigor/
 │
 ├── README.md
@@ -136,4 +136,4 @@ traje-a-rigor/
     ├── V4__delete_dados.sql
     ├── V5__create_view_produtos_vendedores.sql
     └── V6__create_or_replace_function_total_pedidos.sql
-
+```
